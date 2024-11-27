@@ -38,7 +38,7 @@ Installation Steps
 
 Clone the repository:
 
-git clone https://github.com/yourusername/GeoHealth-Care.git
+git clone https://github.com/Dinesh-1208/GeoHealth-Care
 cd GeoHealth-Care
 
 Run the main script to test the functionalities:
@@ -71,7 +71,7 @@ Access your recent searches stored in the stack.
 
 Showcase Presentation
 
-The project overview is available in the PowerPoint file located in the Documentation folder:
+The project overview is available in the PowerPoint file located in the https://github.com/Dinesh-1208/GeoHealth-Care/blob/master/GeoHealth-Revolutionizing-Healthcare-Accessibility.pptx
 
 GeoHealth: Revolutionizing Healthcare Accessibility
 
