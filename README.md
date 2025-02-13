@@ -53,20 +53,20 @@ The *GeoHealth* project is a comprehensive hospital management system designed t
 ---
 
 ## R-Tree Structure Example
-
+```
 Root (Internal Node) [Bounding Box: (40.7242, -74.0049) - (40.758896, -73.9176)]
-|-- Internal Node 1 [Bounding Box: (40.7242, -74.0049) - (40.7373, -73.9352)]
-|   |-- Leaf Node 1
-|   |   |-- City Hospital (40.73061, -73.935242)
-|   |   |-- St. Peter's Hospital (40.7306, -73.9352)
-|   |-- Leaf Node 2
-|       |-- Metro (40.730610, -73.935242)
-|       |-- Sunshine Medical Clinic (40.730610, -73.935242)
-|-- Internal Node 2 [Bounding Box: (40.7357, -74.0031) - (40.758896, -73.9744)]
-|   |-- Leaf Node 3
-|   |   |-- Northside Hospital (40.7357, -73.9918)
-|   |   |-- Westside Hospital (40.7373, -74.0031)
-
+├── Internal Node 1 [Bounding Box: (40.7242, -74.0049) - (40.7373, -73.9352)]
+│   ├── Leaf Node 1
+│   │   ├── City Hospital (40.73061, -73.935242)
+│   │   ├── St. Peter's Hospital (40.7306, -73.9352)
+│   ├── Leaf Node 2
+│       ├── Metro (40.730610, -73.935242)
+│       ├── Sunshine Medical Clinic (40.730610, -73.935242)
+├── Internal Node 2 [Bounding Box: (40.7357, -74.0031) - (40.758896, -73.9744)]
+    ├── Leaf Node 3
+    │   ├── Northside Hospital (40.7357, -73.9918)
+    │   ├── Westside Hospital (40.7373, -74.0031)
+```
 
 ---
 
@@ -86,17 +86,18 @@ Root (Internal Node) [Bounding Box: (40.7242, -74.0049) - (40.758896, -73.9176)]
 
 ## How to Run
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/YourUsername/GeoHealth.git
+   ```
    
 2. Navigate to the project folder:
-   bash
+   ```bash
    cd GeoHealth
+   ```
    
 3. Compile and run the code:
-   bash
+   ```bash
    g++ main.cpp -o geohealth
    ./geohealth
-   
+   ```
 
----
